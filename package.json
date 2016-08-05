@@ -1,0 +1,23 @@
+{
+  "name": "match_game",
+  "version": "1.0.0",
+  "description": "match game for HW",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "moment": "^2.14.1",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start -s -f index.html style.css bundle.js",
+    "build": "watchify index.js -o bundle.js",
+    "watch": "'npm run start' 'npm run build'"
+  },
+  "author": "TJ",
+  "license": "ISC"
+}
