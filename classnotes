@@ -6,7 +6,7 @@ settings - ignored names
 
 
 
-This calls the functions into our js.  However if its contained within the container it will take less time to download onto our code. As long as itss within the scope of the function and not global.
+This calls the functions into our js.  However if its contained within the container it will take less time to download onto our code. As long as its within the scope of the function and not global.
 
 i.e. (()
 const _=require('lodash')
